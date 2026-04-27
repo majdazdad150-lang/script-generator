@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>مولد السكربتات</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🎬 مولد السكربتات</h1>
+
+    <input type="text" id="topic" placeholder="اكتب موضوع السكربت">
+    
+    <select id="type">
+      <option value="youtube">يوتيوب</option>
+      <option value="tiktok">تيك توك</option>
+      <option value="speech">عرض شفهي</option>
+    </select>
+
+    <button onclick="generateScript()">إنشاء السكربت</button>
+
+    <textarea id="output" placeholder="سيظهر السكربت هنا..."></textarea>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
